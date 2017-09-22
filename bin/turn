@@ -1,6 +1,11 @@
 #!/usr/bin/env ruby
-require_relative '../lib/turn.rb'
+require_relative '../lib/turn'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welome to Tic Tac Toe!"
 display_board(board)
 turn(board)
+
+# 3 ways you can execute the program:
+## 1. bin/turn
+## 2. './bin/turn'
+## 3. ruby bin/turn
